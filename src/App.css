@@ -1,0 +1,180 @@
+.parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.parallax.info {
+  background-image: url(./images/q.jpg);
+}
+.intro {
+  margin: 50px;
+}
+.msg {
+  background-color: rgb(255, 247, 0);
+  height: 600px;
+  border: 3px solid black;
+  padding-top: 10px;
+}
+.navbar {
+  background-color: rgb(7, 162, 134);
+  font-family: 'Roboto Mono', monospace;
+  /* font-size: 2em; */
+ /*  padding-bottom: 50px; */
+}
+.nav-item {
+  padding-left: 30px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.process {
+  background-color: lightgray;
+  padding-bottom: 30px;
+}
+.process h1 {
+  text-align: center;
+  color: seagreen;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+.step {
+  padding: 10px;
+}
+.step img {
+  width: 100%;
+}
+.step h3 {
+  text-align: center;
+}
+.step p {
+  text-align: center;
+}
+.partners-icon {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* members */
+.members {
+  padding-left: 30px;
+}
+.members h2{
+  margin-top: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+.item img {
+  padding: 10px;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.item {
+  margin: 20px;
+}
+.members-icons .sm-icon {
+  margin: 5px;
+}
+
+
+
+/* contact */
+.section {
+  margin: 0 auto;
+  background-color: lightgray;
+}
+.section h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contactForm {
+  width: 700px;
+  margin: 0 auto;
+}
+#fName {
+  margin-right: 30px;
+  width: 100%;
+  background: transparent;
+}
+#lName {
+  width: 100%;
+  background: transparent;
+}
+#email {
+  width: 100%;
+  margin-top: 20px;
+  background: transparent;
+}
+#phoneNumber {
+  width: 100%;
+  margin-top: 20px;
+  background: transparent;
+}
+#notes {
+  margin-top: 20px;
+  width: 100%;
+  background: transparent;
+}
+#done {
+  margin-bottom: 40px;
+}
+/* footer */
+.footer {
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 30px;
+  background-color: black;
+  color: white;
+  height: 280px;
+}
+.footer-icons {
+  margin-left: 20px;
+}
+.address {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.address h3 {
+  float: right;
+  margin-right: 240px;
+}
+.officeNumber {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.officeNumber h3 {
+  float: right;
+  margin-right: 175px;
+}
+.email {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.email h3 {
+  float: right;
+  margin-right: 100px;
+}
+.footer-contact {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-logo img {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 30px;
+}
+.finish{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
