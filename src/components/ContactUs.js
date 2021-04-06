@@ -12,26 +12,25 @@ class Contact extends Component {
           <h1>Contact Us</h1>
         </div>
         <div className="contactForm">
-          <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6 col-sm-12 ">
+              <div className="col-md-6 col-x2-12 ">
                 <input id="fName" type="text" placeholder="First name"></input>
               </div>
-              <div className="col-md-6 col-sm-12">
+              <div className="col-md-6 col-xs-12">
                 <input id="lName" type="text" placeholder="Last name"></input>
               </div>
             </div>
-            <div>
+            <div className="col-xs-12">
               <input id="email" type="text" placeholder="Email"></input>
             </div>
-            <div>
+            <div className="col-xs-12">
               <input
                 id="phoneNumber"
                 type="text"
                 placeholder="Phone number"
               ></input>
             </div>
-            <div>
+            <div className="col-xs-12">
               <textarea id="notes" placeholder="Notes" rows="6">
               </textarea>
               <div></div>
@@ -43,7 +42,6 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

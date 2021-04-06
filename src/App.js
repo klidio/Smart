@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React, { Component } from "react";
 import Header from "./panels/Header";
@@ -7,8 +6,6 @@ import Members from "./components/Members";
 import ContactUs from "./components/ContactUs";
 import Footer from "./panels/Footer";
 import './components/FontAwesomeIcons';
-
-
 
 class App extends Component {
   state = {
@@ -44,11 +41,14 @@ class App extends Component {
           </Home>
         ) : this.state.active === "Members" ? (
           <Members ></Members>
-        ) : (
+        ) : this.state.active === "Contact" ?(
           <ContactUs getNewContact={this.state.getNewContact}
-          
           ></ContactUs>
-        )}
+        ) : 
+        <Home
+            changeActiveMenuItem={this.changeActiveMenuItem}>
+          </Home>
+      }
         <Footer changeActiveMenuItem={this.changeActiveMenuItem}></Footer>         
       </div>
     )

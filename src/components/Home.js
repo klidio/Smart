@@ -15,13 +15,12 @@ const Home = (props) => {
       <div className="parallax info">
         <div className="row">
           <div className="col-md-1"></div>
-          <div className="col-md-3 col-sm-12 msg">
+          <div className="col-md-3 col-xs-12 msg">
             <h2>Smart Farming</h2>
             <p>
               Nowadays farmers are having a many problems with their farms,so we
               came with a solution for you smart farming will help farmers
               produce more using less thier resourses .
-              
             </p>
             <ul>
               <li>Higher procuctivity</li>
@@ -37,29 +36,31 @@ const Home = (props) => {
               Join now!
             </Button>
           </div>
-          <div className="col-md-8 col-sm-12"></div>
+          <div className="col-md-8 col-xs-12"></div>
         </div>
       </div>
+      <div className="vid">
       <div className="intro">
         <h2>How does it works?</h2>
-        <p>
+        <h4>
           Smart farming work through sensors. Farmers can monitor various
           conditions like soil moisture, water level, light, humidity,
           obstacles, and motion from anywhere by combining sensors, motion
           detectors, button camera, and wearable devices. The IoT-based smart
           farming automates the irrigation system and is highly efficient as
           compared to the conventional operations.
-        </p>
-        <div className="video">
+        </h4>
+        <div className="video col-xs-12">
           <iframe
-            width="560"
-            height="315"
+            width="500"
+            height="500"
             src="https://www.youtube.com/embed/nYDsyr_OP1Y"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
         </div>
+      </div>
       </div>
       <div className="process">
         <div>
